@@ -168,3 +168,33 @@ h2 {
   90% { opacity: 0}
   100% { opacity: 1; }
 }
+.hero {
+  background-color: white;
+  background-image: url ("images/heavensgate.png");
+}
+html { 
+  background: url(images/) no-repeat ;
+  background-size: cover; 
+}
+h3 {
+  position: absolute;
+  top: 1600px;
+  right: 1329px
+}
+.stew {
+  width: 250px;
+  border: 15px solid black;
+  border-style: groove;
+  padding: 150px;
+  height: 350px;
+  margin: 700px;
+  position: absolute;
+  top: 900px;
+  right: 570px;
+}
+.stew2 {
+  position: absolute;
+  top: 1740px;
+  right: 1309px;
+  padding-bottom:80px;
+}
