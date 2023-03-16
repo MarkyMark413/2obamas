@@ -16,6 +16,7 @@ img {
 }
 
 .fade-in-image {
+  animation-delay: 10s;
   animation: fadeIn 15s;
   -webkit-animation: fadeIn 15s;
   -moz-animation: fadeIn 15s;
@@ -53,6 +54,7 @@ h2 {
 }
      
 .fade-in-text {
+  animation-delay: 10s;
   font-family: Arial;
   font-size: 60px;
   animation: fadeIn 10s;
