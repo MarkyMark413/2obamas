@@ -13,8 +13,9 @@ html, body {
   display: inline-block;
   font-size: 30px;
   position: absolute;
+  top: 680px;
   right: 0%;
-  transform: translateX(-45%)
+  transform: translateX(-167.3%)
 
 }
 .button2 {
@@ -27,9 +28,11 @@ text-decoration: none;
 display: inline-block;
 font-size: 30px;
 position: absolute;
+top: 680px;
 right: 0%;
-transform: translateX(51.5%)
+transform: translateX(-104.3%)
 }
+
 img {
 
 }
@@ -40,15 +43,15 @@ img {
 
 .fade-in-image {
 
-  animation: fadeIn 20s;
-  -webkit-animation: fadeIn 20s;
-  -moz-animation: fadeIn 20s;
-  -o-animation: fadeIn 20s;
-  -ms-animation: fadeIn 20s;
+  animation: fadeIn 19s;
+  -webkit-animation: fadeIn 19s;
+  -moz-animation: fadeIn 19s;
+  -o-animation: fadeIn 19s;
+  -ms-animation: fadeIn 19s;
   position: absolute;
-  top: 120%;
-  right: 10%;
-
+  top: 1000px;
+  right: 0%;
+  transform: translateX(-295%)
 }
 
 @keyframes fadeIn {
@@ -83,15 +86,57 @@ h2 {
 .fade-in-text {
   font-family: Arial;
   font-size: 60px;
+  animation: fadeIn 18s;
+  -webkit-animation: fadeIn 18s;
+  -moz-animation: fadeIn 18s;
+  -o-animation: fadeIn 18s;
+  -ms-animation: fadeIn 18s;
   position: absolute;
-  top: 90%;
+  top: 770px;
   right: 0%;
+  transform: translateX(-150%)
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  90% { opacity: 0}
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  90% { opacity: 0}
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  90% { opacity: 0}
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  90% { opacity: 0}
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  90% { opacity: 0}
+  100% { opacity: 1; }
+}
+.fade-in-text2 {
+  font-size: 60px;
   animation: fadeIn 19s;
   -webkit-animation: fadeIn 19s;
-  opacity:1
   -moz-animation: fadeIn 19s;
   -o-animation: fadeIn 19s;
   -ms-animation: fadeIn 19s;
+  position: absolute;
+  top: 890px;
+  right: 0%;
+  transform: translateX(-210%)
 }
 
 @keyframes fadeIn {
