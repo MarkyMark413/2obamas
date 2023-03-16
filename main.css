@@ -3,10 +3,33 @@ html, body {
     padding: 0;
 }
 
- background-image: url("images/heavensgate.jpg");
-  background-repeat: repeat;
-}
+.button {
+  background-color: brown;
+  border: 1px;
+  color: white;
+  padding: 12px 12px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  position: absolute;
+  right: 0%;
+  transform: translateX(-45%)
 
+}
+.button2 {
+  background-color: green;
+  border: 1px;
+color: white;
+padding: 12px 12px;
+text-align: left;
+text-decoration: none;
+display: inline-block;
+font-size: 30px;
+position: absolute;
+right: 0%;
+transform: translateX(51.5%)
+}
 img {
 
 }
@@ -16,12 +39,16 @@ img {
 }
 
 .fade-in-image {
-  animation: delay 15s;
-  animation: fadeIn 25s;
-  -webkit-animation: fadeIn 25s;
-  -moz-animation: fadeIn 25s;
-  -o-animation: fadeIn 25s;
-  -ms-animation: fadeIn 25s;
+
+  animation: fadeIn 20s;
+  -webkit-animation: fadeIn 20s;
+  -moz-animation: fadeIn 20s;
+  -o-animation: fadeIn 20s;
+  -ms-animation: fadeIn 20s;
+  position: absolute;
+  top: 120%;
+  right: 10%;
+
 }
 
 @keyframes fadeIn {
@@ -54,37 +81,45 @@ h2 {
 }
      
 .fade-in-text {
-  animation: delay 25s;
   font-family: Arial;
   font-size: 60px;
-  animation: fadeIn 15s;
-  -webkit-animation: fadeIn 15s;
-  -moz-animation: fadeIn 15s;
-  -o-animation: fadeIn 15s;
-  -ms-animation: fadeIn 15s;
+  position: absolute;
+  top: 90%;
+  right: 0%;
+  animation: fadeIn 19s;
+  -webkit-animation: fadeIn 19s;
+  opacity:1
+  -moz-animation: fadeIn 19s;
+  -o-animation: fadeIn 19s;
+  -ms-animation: fadeIn 19s;
 }
 
 @keyframes fadeIn {
   0% { opacity: 0; }
+  90% { opacity: 0}
   100% { opacity: 1; }
 }
 
 @-moz-keyframes fadeIn {
   0% { opacity: 0; }
+  90% { opacity: 0}
   100% { opacity: 1; }
 }
 
 @-webkit-keyframes fadeIn {
   0% { opacity: 0; }
+  90% { opacity: 0}
   100% { opacity: 1; }
 }
 
 @-o-keyframes fadeIn {
   0% { opacity: 0; }
+  90% { opacity: 0}
   100% { opacity: 1; }
 }
 
 @-ms-keyframes fadeIn {
   0% { opacity: 0; }
+  90% { opacity: 0}
   100% { opacity: 1; }
 }
