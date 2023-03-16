@@ -1,4 +1,12 @@
-body {
-    background-image: url('../images/heavensgate.jpg');
-    background-repeat: repeat;
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+
+}
+
+.centered {
+    text-align: center;
 }
