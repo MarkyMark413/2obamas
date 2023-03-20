@@ -1,44 +1,33 @@
-html, body {
-    margin: 0;
-    padding: 0;
-}
-
 .button {
   background-color: brown;
   border: 1px;
   color: white;
-  padding: 12px 12px;
-  text-align: left;
+  padding: 14px 40px;
+  text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 30px;
   position: absolute;
   top: 680px;
-  right: 0%;
-  transform: translateX(-167.3%)
-
+  translate: -1010px;
 }
 .button2 {
   background-color: green;
   border: 1px;
 color: white;
-padding: 12px 12px;
-text-align: left;
+padding: 12px 75px;
+text-align: center;
 text-decoration: none;
 display: inline-block;
 font-size: 30px;
 position: absolute;
 top: 680px;
-right: 0%;
-transform: translateX(-104.3%)
-}
-
-img {
-
+translate: -445px;
 }
 
 .centered {
     text-align: center;
+    position: static;
 }
 
 .fade-in-image {
@@ -78,11 +67,7 @@ img {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
-
-h2 {
-     
-}
-     
+    
 .fade-in-text {
   font-family: Arial;
   font-size: 60px;
