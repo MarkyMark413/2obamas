@@ -1,0 +1,22 @@
+.gertha {
+  position: static;
+  top: 230px;
+  left: 190px
+}
+.obamatext1 {
+  position: static;
+  top: 550px;
+  left: 390px
+}
+.header {
+  padding: 10px;
+  height: 200px;
+  text-align: center;
+  color:black;
+  background-image: url("images/obamaheader.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  line-height: 4;
+}
+body { margin: 0; padding: 0; 
+}
